@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outFile": "./dist/bundle.js",
+    "allowJs": true,
+    "sourceMap": true,
+    "target": "es5",
+    "lib": [
+      "es5",
+      "es2015.promise"
+    ]
+  },
+  "exclude": [
+    "dist",
+    "**/*.spec.ts"
+  ]
+}
