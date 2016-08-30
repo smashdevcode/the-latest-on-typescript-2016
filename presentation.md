@@ -254,6 +254,8 @@ Two new compiler options help you keep a clean code base by not allowing unused 
 }
 ```
 
+The `noUnusedLocals` compiler option works with locals in functions or methods, or any non-exported items in a module, or private members in a class.
+
 ### Demo: Type Enhancements
 
 #### String literal types (1.8)
@@ -363,7 +365,7 @@ foo.push(4);           // Error: `push` does not exist on ReadonlyArray as it mu
 foo = foo.concat([4]); // Okay: create a copy
 ```
 
-## ES6/ES++ support
+## ES++ support
 
 ### Demo: Async/Await
 
