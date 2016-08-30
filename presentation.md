@@ -64,7 +64,7 @@ npm install --save-dev @types/lodash
 
 _Note: There doesn't appear to be a way to restrict usage of the global variable._
 
-## Data Typing
+## Data Typing and Code Analysis
 
 ### Demo: Strict Null Checking
 
