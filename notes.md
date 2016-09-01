@@ -1,45 +1,29 @@
 
 # Notes
 
-
-
 ## TODO
 
-Start fleshing out demos
+Demos run through
+  Make sure that the demos compile and work in Atom
+  Experiment with the stateless function components
+    Is there a way to define the props data types without providing default values via destructuring???
 
-Work up React demos
+
+
+
+
 
 Research generator functions
   Put together simple demo that shows how generator functions work
-
-Put together intro slides
-  Probably will skip that content at the PDX TypeScript meetup
-
-Practice presentation
-  How long is the talk???
-
-Also be prepared to use Atom for some of these demos
-  Plan out ahead of time which demo will be done in which editor
 
 What features are important to show across ALL releases???
   If I assume that someone isn't familiar with TypeScript, what are the top 10 features to know about???
   If someone has used TypeScript before but isn't familiar with recent releases, what are the top 10 features to know about???
 
-
-
-
-
-
 ## Questions
 
 Is it impossible to enable strict null checking when you're using third party libraries???
   Or at least until the type definition files are updated???
-
-How do I show Angular 2 as part of the presentation???
-  Show how decorators are used???
-
-
-
 
 
 
@@ -173,14 +157,3 @@ declare module "foo/*";
 ```
 
 You can then import anything starting with the path `foo/`
-
-
-
-
-
-
-
-
-
-
-
